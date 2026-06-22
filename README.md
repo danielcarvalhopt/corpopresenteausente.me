@@ -7,32 +7,32 @@ Autora: Maria Filipa Vaz Torres.
 
 ## Estrutura
 
-- `site/` — o site publicado (HTML, CSS, JS, imagens e materiais).
-  - `index.html` — página inicial (portefólio resumido por secções).
-  - `pip.html` — Projeto de Intervenção Pedagógica.
-  - `vitrais.html` — Projeto dos Vitrais.
-  - `questionario.html` — resultados do questionário final.
-  - `style.css`, `app.js` — estilo e comportamento partilhados.
-  - `materiais/` — PDFs e ficheiros descarregáveis.
-  - `img/` — imagens, miniaturas e galerias.
-  - `vendor/` — bibliotecas locais (Chart.js).
+O site é servido a partir da **raiz** do repositório (requisito do GitHub Pages).
+
+- `index.html` — página inicial (portefólio resumido por secções).
+- `pip.html` — Projeto de Intervenção Pedagógica.
+- `vitrais.html` — Projeto dos Vitrais.
+- `questionario.html` — resultados do questionário final.
+- `style.css`, `app.js` — estilo e comportamento partilhados.
+- `materiais/` — PDFs e ficheiros descarregáveis.
+- `img/` — imagens, miniaturas e galerias.
+- `vendor/` — bibliotecas locais (Chart.js).
 - `data/` — ficheiros-fonte originais (documento do portefólio, PDFs, figuras).
 
 ## Ver localmente
 
 O site usa caminhos relativos e alguns recursos (vídeo do YouTube, gráficos)
-precisam de ser servidos por HTTP. A partir da pasta `site/`:
+precisam de ser servidos por HTTP. A partir da raiz do projeto:
 
 ```bash
-cd site
 python3 -m http.server 8000
 # abrir http://localhost:8000
 ```
 
 ## Publicação (GitHub Pages)
 
-Nas definições do repositório → Pages, escolher a branch `main` e a pasta `/site`
-como origem. O domínio próprio é **corpopresenteausente.me** (ficheiro `site/CNAME`).
+Nas definições do repositório → Pages, escolher a branch `main` e a pasta `/ (root)`
+como origem. O domínio próprio é **corpopresenteausente.me** (ficheiro `CNAME`).
 
 No registador do domínio, apontar para o GitHub Pages:
 - Registos `A` do apex (`corpopresenteausente.me`) → `185.199.108.153`,
@@ -43,9 +43,8 @@ Depois, em Settings → Pages, ativar «Enforce HTTPS».
 
 ## Atualizar a galeria «Análise de Conteúdo»
 
-Colocar imagens em `site/img/galeria-analise-conteudo/` e correr:
+Colocar imagens em `img/galeria-analise-conteudo/` e correr:
 
 ```bash
-cd site
 bash atualizar-galeria.sh
 ```

@@ -8,5 +8,5 @@
 Thumbs.db
 
 # Ficheiros de trabalho auxiliares (não fazem parte do site nem dos fontes)
-site/_*.html
-site/_check/
+_*.html
+_check/
