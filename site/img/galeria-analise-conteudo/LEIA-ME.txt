@@ -1,0 +1,20 @@
+GALERIA — ANÁLISE DE CONTEÚDO
+================================
+
+Coloca aqui as imagens dos trabalhos dos alunos (desenhos, estudos,
+concretizações gráficas) que queres mostrar na galeria do site.
+
+COMO FUNCIONA
+- Basta arrastar as imagens para esta pasta.
+- Formatos aceites: .jpg, .jpeg, .png, .webp
+- O site mostra-as por ORDEM ALFABÉTICA do nome do ficheiro.
+  Para controlar a ordem, nomeia-as 01-..., 02-..., 03-... etc.
+  Ex.: 01-estudos-rapidos.jpg, 02-estudo-maos.jpg, 03-silhueta.jpg
+
+LEGENDAS (opcional)
+- Para dar um título/legenda a cada imagem, escreve no nome do ficheiro
+  a seguir ao número, usando hífens. Ex.:
+     01-Estudos-rapidos-da-figura.jpg  ->  legenda "Estudos rápidos da figura"
+- Em alternativa, diz-me as legendas e eu coloco-as à mão.
+
+Depois de colocares as imagens aqui, avisa-me e eu atualizo a galeria.

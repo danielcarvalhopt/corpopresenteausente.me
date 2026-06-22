@@ -1,0 +1,20 @@
+/* Lista de imagens da galeria "Análise de Conteúdo". Gerada por atualizar-galeria.sh */
+window.GALERIA_ANALISE = [
+  { "src": "img/galeria-analise-conteudo/Fotografias projeto Figura Humana - Instalação (4_03_2026 na 19_22)(1).jpg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/Fotografias projeto Figura Humana - Instalação (5 de mar. de 2026 às 09_03)(4).jpg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/Fotografias projeto Figura Humana - Instalação (5_03_2026 na 08_59).jpg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_20260305_195407.jpg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_3804.jpg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_6309.jpg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_6315.jpg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_6320.jpg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_6321.jpg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_8964.jpeg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_8965.jpeg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_8966.jpeg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_8967.jpeg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_9077.jpeg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_9102.jpeg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_9106.jpeg", "leg": "" },
+  { "src": "img/galeria-analise-conteudo/IMG_9107.jpeg", "leg": "" },
+];
